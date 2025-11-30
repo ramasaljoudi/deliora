@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+
+  
+  <!-- Header -->
+  <header class="main-header">
+    <div id="logo">
+      <img src="images/Logo2.png" alt="Deliora logo">
+    </div>
+
+
+    
+
+    <nav class="navbar">
+      <a href="Homepage.html">Home</a>
+      <a href="Services.html">Services</a>
+      <a href="aboutUs.html">About us</a>
+      <a href="Deliora_Team_dashboard.html">Deliora Team dashboard</a>
+      <a href="Customer’s_Dashboard.html">Customer's dashboard</a>
+    </nav>
+  </header>
+  
+<!-- ===== Breadcrumbs ===== -->
+<div class="breadcrumbs">
+  <a href="Homepage.html">Home</a> <span style="font-size: 25px;">›</span> <span>Services</span>
+</div>
+
+
+  <!-- ===== Banner ===== -->
+  <div class="banner">
+    <img src="images/S.png"  alt="Dessert Banner">
+  </div>
+
+
+  <!-- ===== Services Section ===== -->
+<section class="services-page">
+  <div class="services-header">
+    <h2>Our Services</h2>
+    <div class="sort-bar">
+      <label for="sort">Sort:</label>
+      <select id="sort" name="sort">
+        <option value="">Select</option>
+
+        <optgroup label="Sort by Price">
+          <option value="high-low">From higher to lower</option>
+          <option value="low-high">From lower to higher</option>
+        </optgroup>
+
+        <optgroup label="Sort by Name">
+          <option value="a-z">From A-Z</option>
+          <option value="z-a">From Z-A</option>
+        </optgroup>
+      </select>
+    </div>
+  </div>
+
+  <div class="service-grid">
+
+    <div class="service-box" data-name="Celebration Cakes" data-price="250">
+      <label class="favorite">
+        <input type="checkbox">
+        <span></span>
+      </label>
+      <a href="Request_a_Service.html" class="service-link">
+        <img src="images/CelebrationCakes.jpg" alt="Celebration Cakes">
+        <h3>Celebration Cakes</h3>
+        <p>Homemade cakes for all occasions.</p>
+        <p class="price">Price: 250SAR</p>
+      </a>
+    </div>
+
+    
+    <div class="service-box" data-name="Traditional Sweets" data-price="70">
+      <label class="favorite">
+        <input type="checkbox">
+        <span></span>
+      </label>
+      <a href="Request_a_Service.html" class="service-link">
+        <img src="images/TraditionalSweets.jpg" alt="Traditional Sweets">
+        <h3>Traditional Sweets</h3>
+        <p>Classic Middle Eastern treats.</p>
+        <p class="price">Price: 70SAR</p>
+      </a>
+    </div>
+
+    <div class="service-box" data-name="Dessert Boxes" data-price="80">
+      <label class="favorite">
+        <input type="checkbox">
+        <span></span>
+      </label>
+      <a href="Request_a_Service.html" class="service-link">
+        <img src="images/DessertBoxes.jpg" alt="Dessert Boxes">
+        <h3>Dessert Boxes</h3>
+        <p>Assorted boxes with seasonal offers.</p>
+        <p class="price">Price: 80SAR</p>
+      </a>
+    </div>
+
+    <div class="service-box" data-name="Sweet Boxes" data-price="50">
+      <label class="favorite">
+        <input type="checkbox">
+        <span></span>
+      </label>
+      <a href="Request_a_Service.html" class="service-link">
+        <img src="images/SweetBoxes.jpg" alt="Mini Treats">
+        <h3>Mini Treats (Bites & Cupcakes)</h3>
+        <p>Perfect bite-sized desserts like cupcakes, brownies, and mini tarts.</p>
+        <p class="price">Price: 50SAR</p>
+      </a>
+    </div>
+
+    <div class="service-box" data-name="Platter" data-price="300">
+      <label class="favorite">
+        <input type="checkbox">
+        <span></span>
+      </label>
+      <a href="Request_a_Service.html" class="service-link">
+        <img src="images/Platter.jpg" alt="Event Platters">
+        <h3>Event Platters</h3>
+        <p>Large trays of assorted homemade desserts.</p>
+        <p class="price">Price: 300SAR</p>
+      </a>
+    </div>
+
+    <div class="service-box" data-name="Gift Packaging" data-price="100">
+      <label class="favorite">
+        <input type="checkbox">
+        <span></span>
+      </label>
+      <a href="Request_a_Service.html" class="service-link">
+        <img src="images/Gift-packaging.jpg" alt="Gift Packaging">
+        <h3>Gift Packaging</h3>
+        <p>Custom-wrapped dessert boxes with elegant packaging for gifting.</p>
+        <p class="price">Price: 100SAR</p>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+ <!-- Footer -->
+ <footer>
+    <div class="footer-left">
+      <h3>Deliora</h3>
+      <p>"Home Made, Heart Made – Deliora"</p>
+    </div>
+    <div class="footer-right">
+      <p><strong>Contact</strong></p>
+      <p>Phone: +966 000000000</p>
+      <p>Email: info@deliora.com</p>
+      <div class="socials">
+        <a href="#"><img src="images/Instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="images/Facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="images/X.png" alt="X"></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Deliora. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="DelioraJS.js"></script>
+
+</body>
+</html>

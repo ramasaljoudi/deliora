@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Request a Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="main-header">
+    <div id="logo">
+      <img src="images/Logo2.png" alt="Deliora logo">
+    </div>
+
+     <nav class="navbar">
+      <a href="Homepage.html">Home</a>
+      <a href="Services.html">Services</a>
+      <a href="aboutUs.html">About us</a>
+      <a href="Deliora_Team_dashboard.html">Deliora Team dashboard</a>
+      <a href="Customer’s_Dashboard.html">Customer's dashboard</a>
+    </nav>
+</header>
+
+<!-- Breadcrumb -->
+<div class="breadcrumbs">
+    <a href="Homepage.html">Home</a> <span style="font-size: 25px;">›</span> 
+    <a href="Customer’s_Dashboard.html">Customer Dashboard</a> <span style="font-size: 25px;">›</span> 
+    <span>Request a Service</span>
+</div>
+
+<h1>Request a Service</h1>
+
+<section class="form-section">
+  <h2>Request</h2>
+
+  <!-- Form WITHOUT action or method -->
+  <form id="requestForm">
+
+    <label for="name">Customer Name:</label>
+    <input type="text" id="name">
+
+    <label for="service">Select Service:</label>
+    <select id="service">
+        <option value="">-- Select Service --</option>
+        <option value="Traditional Sweets">Traditional Sweets</option>
+        <option value="Dessert Boxes">Dessert Boxes</option>
+        <option value="Mini Treats">Mini Treats</option>
+        <option value="Event Platters">Event Platters</option>
+        <option value="Gift Packaging">Gift Packaging</option>
+        <option value="Celebration cakes">Celebration cakes</option>
+    </select>
+
+    <label for="date">Due Date:</label>
+    <input type="date" id="date">
+
+    <label for="description">Description:</label>
+    <textarea id="description" rows="6"></textarea>
+
+    <!-- IMPORTANT: use JS function -->
+    <button type="button" onclick="submitRequest()">Submit</button>
+
+  </form>
+</section>
+
+<!-- Here requests will show if user chooses Stay -->
+<section id="requestsContainer"></section>
+
+<footer>
+    <div class="footer-left">
+      <h3>Deliora</h3>
+      <p>"Home Made, Heart Made – Deliora"</p>
+    </div>
+    <div class="footer-right">
+      <p><strong>Contact</strong></p>
+      <p>Phone: +966 000000000</p>
+      <p>Email: info@deliora.com</p>
+      <div class="socials">
+        <a href="#"><img src="images/Instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="images/Facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="images/X.png" alt="X"></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Deliora. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- CONNECT JAVASCRIPT FILE -->
+<script src="DelioraJS.js"></script>
+
+</body>
+</html>
